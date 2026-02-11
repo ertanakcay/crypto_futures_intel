@@ -1,0 +1,19 @@
+﻿exchange: binance_usdtm
+futures:
+  funding_warn: 0.0005
+  funding_veto: 0.0010
+risk:
+  max_default_leverage: 25
+  max_a_plus_leverage: 50
+  confidence_tradeable: 75
+  confidence_a_plus: 82
+caps_rules:
+  range_cap: 8
+  vol_spike_cap: 12
+  oi_divergence_cap: 10
+  funding_warn_cap: 15
+regime:
+  adx_trend_min: 20
+  adx_range_max: 15
+  atr_z_vol_spike: 2.0
+  bbw_squeeze_max: 0.06
